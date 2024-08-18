@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - RS. Travel Recommendation</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="images/RS-white.png" alt="RS. Travel Logo" class="logo">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.x.com"><img src="x_icon.svg" alt="Twitter"></a>
+        <a href="https://www.facebook.com"><img src="facebook_icon.svg" alt="Facebook"></a>
+        <a href="https://www.instagram.com"><img src="instagram_icon.svg" alt="Instagram"></a>
+        <a href="https://www.youtube.com"><img src="youtube_icon.svg" alt="YouTube"></a>
+    </div>
+    
+ <div class="content contact">
+        <h1>Contact Us</h1>
+        <div class="form-container">
+            <form action="/submit_contact_form" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Contact us: info@rstravel.com</p>
+    </div>
+</body>
+</html>

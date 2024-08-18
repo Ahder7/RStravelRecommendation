@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar .logo {
+    height: 50px;
+    margin-right: 20px;
+}
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar .search-container {
+    margin-left: auto;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+.navbar input[type=text], .navbar button {
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 5px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+}
+.navbar button {
+    background-color: #4CAF50;
+    color: white;
+}
+.social-icons {
+    position: fixed;
+    left: 20px;
+    top: 100px;
+    z-index: 2;
+}
+.social-icons a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+}
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+.content {
+    padding: 20px;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: left;
+    color: white;
+    z-index: 0;
+    position: relative;
+}
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 20px;
+    max-width: 600px;
+}
+.about h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.team-section {
+    margin-top: 40px;
+}
+.team-section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.team-member {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-right: 3.33%;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.team-member h3 {
+    margin: 10px 0 5px 0;
+    font-size: 22px;
+}
+.team-member p {
+    margin: 0;
+    font-size: 18px;
+}
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+.form-container label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.form-container input[type=text],
+.form-container input[type=email],
+.form-container textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #45a049;
+}
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.result-item {
+    width: 45%;
+    margin: 2.5%;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.result-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+.result-item h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+.result-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.result-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.result-item button:hover {
+    background-color: #45a049;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
